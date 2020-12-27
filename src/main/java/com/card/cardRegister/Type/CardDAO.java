@@ -5,5 +5,6 @@ import lombok.Data;
 @Data
 public class CardDAO {
 
-    private String response;
+    private Long Id;
+    private String Status;
 }
